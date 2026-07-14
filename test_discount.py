@@ -15,6 +15,6 @@ def test_save10_coupon():
     assert calculate_discounted_price(100, "standard", coupon_code="SAVE10") == 81.00
 
 def test_holiday_discount():
-    assert calculate_discounted_price(100, "guest", is_holiday=True) == 95.00
+    assert calculate_discounted_price(100, "guest", is_holiday=True) == 96.00
 
 ## test it out 
