@@ -32,3 +32,5 @@ jobs:
 
             - name: Test with coverage
         run: pytest test_discount.py --cov=discount --cov-branch --cov-fail-under=75 --cov-report=term-missing
+
+#help please
